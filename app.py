@@ -50,10 +50,10 @@ def home():
     return jsonify({"message": "EV Charging API is running!"})
 
 # API to get all charging stations
-@app.route('/stations', methods=['GET'])
-def get_stations():
-    stations = list(stations_collection.find({}, {"_id": 0}))
-    return jsonify(stations)
+# @app.route('/stations', methods=['GET'])
+# def get_stations():
+#     stations = list(stations_collection.find({}, {"_id": 0}))
+#     return jsonify(stations)
 
 # API to add a new charging station
 @app.route('/stations', methods=['POST'])
