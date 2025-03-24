@@ -1,0 +1,6 @@
+Flask
+Flask-PyMongo
+python-dotenv
+pymongo
+dnspython
+gunicorn  # Required for deployment on Render
